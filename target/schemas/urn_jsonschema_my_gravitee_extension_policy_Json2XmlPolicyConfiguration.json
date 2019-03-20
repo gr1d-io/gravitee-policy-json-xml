@@ -1,0 +1,19 @@
+{
+  "type" : "object",
+  "id" : "urn:jsonschema:my:gravitee:extension:policy:Json2XmlPolicyConfiguration",
+  "properties" : {
+    "stringParam" : {
+      "type" : "string"
+    },
+    "integerParam" : {
+      "type" : "integer"
+    },
+    "booleanParam" : {
+      "type" : "boolean"
+    },
+    "httpMethod" : {
+      "type" : "string",
+      "enum" : [ "CONNECT", "DELETE", "GET", "HEAD", "OPTIONS", "PATCH", "POST", "PUT", "TRACE" ]
+    }
+  }
+}
